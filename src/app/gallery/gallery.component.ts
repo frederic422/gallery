@@ -12,7 +12,7 @@ import { ImageService } from '../images/shared/image.service';
 
 
 export class GalleryComponent implements OnChanges {
-    title = 'Recent photos';
+    title = 'Photos récentes';
     @Input() filterBy?: string = 'all';
     visibleImages: any[] = [];
 
